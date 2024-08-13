@@ -170,11 +170,7 @@ void setup() {
 
 #ifdef USE_VOICE_TEXT
 //char *text1 = "こんにちは、世界！";
-char *text1 = "こんにちは、僕の名前はあたるです。よろしくね！";
-char *text2 = "こんにちは、私の名前はラムちゃんです。よろしくね！";
 char *text3 = "こんにちは、私の名前はスタックちゃんです。よろしくね！";
-char *tts_parms1 ="&emotion_level=2&emotion=happiness&format=mp3&speaker=takeru&volume=200&speed=100&pitch=130";
-char *tts_parms2 ="&emotion_level=2&emotion=happiness&format=mp3&speaker=hikari&volume=200&speed=120&pitch=130";
 char *tts_parms3 ="&emotion_level=4&emotion=anger&format=mp3&speaker=bear&volume=200&speed=120&pitch=100";
 
 void VoiceText_tts(char *text,char *tts_parms) {
